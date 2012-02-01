@@ -528,6 +528,14 @@ Anonyme brukere blir automatisk gitt et generert navn, men dette kan endres.',
 	'right-webchat' => 'Tillatt å bruke [[Special:WebChat|nettpraten]]',
 );
 
+/** Nepali (नेपाली)
+ * @author RajeshPandey
+ */
+$messages['ne'] = array(
+	'webchat' => 'वेब कुराकानी',
+	'webchat-desc' => 'अन्य विकि प्रयोगकर्ताहरू संग वास्तविक समय मा कुराकानी गर्न प्रयोग हुने [[Special:WebChat|विषेश पृष्ठ]] थप्छ',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
