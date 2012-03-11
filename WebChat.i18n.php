@@ -401,6 +401,13 @@ $messages['ja'] = array(
 	'right-webchat' => '[[Special:WebChat|ウェブチャット]]を使用できる',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'webchat' => 'ვებ-ჩატი',
+);
+
 /** Khowar (کھوار)
  * @author Rachitrali
  */
