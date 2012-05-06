@@ -397,7 +397,7 @@ Agli utenti anonimi ne viene assegnato uno generato automaticamente che è possi
  */
 $messages['ja'] = array(
 	'webchat' => 'ウェブチャット',
-	'webchat-desc' => 'ウィキの他の利用者とリアルタイムで会話するための[[Special:WebChat|特別ページ]]を追加します',
+	'webchat-desc' => 'ウィキの他の利用者とリアルタイムで会話するための[[Special:WebChat|特別ページ]]を追加する',
 	'webchat-header' => 'この特別ページを使うと、あなたはこのウィキの他の利用者とリアルタイムで共同作業ができるようになります。接続するには接続ボタンを押すだけです。ニックネームでログインしている場合はその名前があらかじめ入力されています。匿名の利用者は自動的に名前がつけられますが、変えることもできます。',
 	'right-webchat' => '[[Special:WebChat|ウェブチャット]]を使用できる',
 );
