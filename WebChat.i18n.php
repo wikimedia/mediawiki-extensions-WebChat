@@ -561,6 +561,7 @@ Anonieme gebruikers krijgen een automatisch aangemaakte gebruikersnaam die later
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Gunnernett
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'webchat' => 'Nettprat',
@@ -820,7 +821,7 @@ $messages['uk'] = array(
 	'right-webchat' => 'Дозволене використання [[Special:WebChat|Web-чату]]',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
