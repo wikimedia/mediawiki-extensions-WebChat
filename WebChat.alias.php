@@ -25,7 +25,7 @@ $specialPageAliases['arz'] = array(
 
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
-	'WebChat' => array( 'Web-Chat' ),
+	'WebChat' => array( 'Web-Chat', 'Chat' ),
 );
 
 /** Esperanto (Esperanto) */
@@ -53,6 +53,11 @@ $specialPageAliases['gag'] = array(
 	'WebChat' => array( 'VebSözleşmäk', 'VebSözleşmä', 'VebSözleşme' ),
 );
 
+/** Swiss German (Alemannisch) */
+$specialPageAliases['gsw'] = array(
+	'WebChat' => array( 'Web-Chat' ),
+);
+
 /** Haitian (Kreyòl ayisyen) */
 $specialPageAliases['ht'] = array(
 	'WebChat' => array( 'Klavardaj' ),
@@ -71,6 +76,11 @@ $specialPageAliases['id'] = array(
 /** Japanese (日本語) */
 $specialPageAliases['ja'] = array(
 	'WebChat' => array( 'ウェブチャット' ),
+);
+
+/** Georgian (ქართული) */
+$specialPageAliases['ka'] = array(
+	'WebChat' => array( 'ვებ-ჩატი' ),
 );
 
 /** Korean (한국어) */
