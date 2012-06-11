@@ -28,17 +28,22 @@ $specialPageAliases['de'] = array(
 	'WebChat' => array( 'Web-Chat', 'Chat' ),
 );
 
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'WebChat' => array( 'Websohbet' ),
+);
+
 /** Esperanto (Esperanto) */
 $specialPageAliases['eo'] = array(
 	'WebChat' => array( 'Retbabili' ),
 );
 
-/** Spanish (Español) */
+/** Spanish (español) */
 $specialPageAliases['es'] = array(
 	'WebChat' => array( 'Chat_web' ),
 );
 
-/** Estonian (Eesti) */
+/** Estonian (eesti) */
 $specialPageAliases['et'] = array(
 	'WebChat' => array( 'Jututuba' ),
 );
@@ -63,7 +68,7 @@ $specialPageAliases['ht'] = array(
 	'WebChat' => array( 'Klavardaj' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'WebChat' => array( 'Chat_web' ),
 );
@@ -93,7 +98,7 @@ $specialPageAliases['lb'] = array(
 	'WebChat' => array( 'Web-Chat' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'WebChat' => array( 'МрежРазг' ),
 );
@@ -108,7 +113,7 @@ $specialPageAliases['mr'] = array(
 	'WebChat' => array( 'वेबगप्पा' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'WebChat' => array( 'Chat' ),
 );
@@ -123,12 +128,12 @@ $specialPageAliases['nl'] = array(
 	'WebChat' => array( 'WebChat' ),
 );
 
-/** Portuguese (Português) */
+/** Portuguese (português) */
 $specialPageAliases['pt'] = array(
 	'WebChat' => array( 'Conversação' ),
 );
 
-/** Slovenian (Slovenščina) */
+/** Slovenian (slovenščina) */
 $specialPageAliases['sl'] = array(
 	'WebChat' => array( 'SpletnaKlepetalnica' ),
 );
@@ -138,17 +143,17 @@ $specialPageAliases['tr'] = array(
 	'WebChat' => array( 'WebSohbet' ),
 );
 
-/** Tatar (Cyrillic script) (Татарча) */
+/** Tatar (Cyrillic script) (татарча) */
 $specialPageAliases['tt-cyrl'] = array(
 	'WebChat' => array( 'Веб-чат' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'WebChat' => array( '网上聊天' ),
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文（繁體）‬) */
 $specialPageAliases['zh-hant'] = array(
 	'WebChat' => array( '網上聊天' ),
 );
