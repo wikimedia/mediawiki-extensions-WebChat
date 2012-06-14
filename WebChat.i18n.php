@@ -68,7 +68,7 @@ $messages['ar'] = array(
 	'right-webchat' => 'السماح باستخذام [[Special:WebChat|دردشة الوب]]',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -95,7 +95,7 @@ $messages['be-tarask'] = array(
 	'right-webchat' => 'карыстаньне [[Special:WebChat|ўэб-чатам]]',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -110,7 +110,7 @@ $messages['bn'] = array(
 	'webchat' => 'ওয়েব চ্যাট',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
  */
@@ -124,7 +124,7 @@ Ul lesanv a vo lakaet d'an implijerien dizanv dre ziouer, met gallout a ra beza�
 	'right-webchat' => 'Aotreet da implijout ar [[Special:WebChat|flap web]]',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -137,7 +137,7 @@ Anonimnim korisnicima će biti automatski dodijeljen nadimak, ali može biti nak
 	'right-webchat' => 'Dozvoljena upotreba [[Special:WebChat|web dopisivanja]]',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Paucabot
  * @author SMP
  */
@@ -146,7 +146,7 @@ $messages['ca'] = array(
 	'right-webchat' => "Tenir permès l'ús del [[Special:WebChat|xat web]]",
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Matěj Grabovský
  * @author Mormegil
  */
@@ -220,7 +220,7 @@ $messages['eo'] = array(
 	'right-webchat' => 'Permesita uzi [[Special:WebChat|Babilejon]]',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Antur
  * @author Dferg
  * @author Locos epraix
@@ -235,7 +235,7 @@ Los usuarios anónimos obtienen un usuario generado automáticamente, que puede 
 	'right-webchat' => 'Se permite usar [[Special:WebChat|web chat]]',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Kobazulo
  */
 $messages['eu'] = array(
@@ -244,7 +244,7 @@ $messages['eu'] = array(
 	'right-webchat' => '[[Special:WebChat|Web bidezko txata]] erabiltzeko baimendua',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Str4nd
  */
 $messages['fi'] = array(
@@ -257,7 +257,7 @@ Kirjautumattomille käyttäjille luodaan nimimerkki automaattisesti, mutta sitä
 	'right-webchat' => 'Käyttää [[Special:WebChat|verkkokeskustelua]]',
 );
 
-/** French (Français)
+/** French (français)
  * @author IAlex
  * @author Urhixidur
  */
@@ -271,7 +271,7 @@ Pour les utilisateurs anonymes, un pseudonyme est créé automatiquement, mais c
 	'right-webchat' => 'Peut utiliser le [[Special:WebChat|clavardage web]]',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -319,7 +319,7 @@ $messages['he'] = array(
 	'right-webchat' => "שימוש ב[[Special:WebChat|צ'אט באתר]]",
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Ex13
  */
 $messages['hr'] = array(
@@ -338,7 +338,7 @@ Jeli sy přizjewjeny, budźe so twoje přimjeno awtomatisce pokazować. Anonymni
 	'right-webchat' => 'Wužiwanje [[Special:WebChat|webchata]] dowoleny',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Glanthor Reviol
  */
@@ -352,7 +352,7 @@ A névtelen felhasználók automatikusan generált nicknevet kapnak, de ez megv�
 	'right-webchat' => '[[Special:WebChat|web chat]] használata',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -378,7 +378,7 @@ Pengguna anonim akan diberikan nama secara otomatis, dan namanya dapat diganti.'
 	'right-webchat' => 'Mengijinkan pengguna untuk menggunakan [[Special:WebChat|obrolan web]]',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Darth Kule
  */
 $messages['it'] = array(
@@ -473,7 +473,7 @@ $messages['mg'] = array(
 	'right-webchat' => 'Afaka mampiasa ny [[Special:WebChat|webchat]]',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -561,7 +561,7 @@ Anonieme gebruikers krijgen een automatisch aangemaakte gebruikersnaam die later
 	'right-webchat' => 'Maakt het mogelijk [[Special:WebChat|webchat]] te gebruiken',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Gunnernett
  * @author Harald Khan
  * @author Njardarlogar
@@ -576,7 +576,7 @@ Anonyme brukarar vert gjevne automatisk genererte kallenamn, men desse kan ein e
 	'right-webchat' => 'Kan nytta [[Special:WebChat|nettprat]]',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -589,7 +589,7 @@ Pels utilizaires anonims, un escais es creat automaticament, mas aqueste pòt è
 	'right-webchat' => 'Pòt utilizar lo [[Special:WebChat|chat web]]',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -622,7 +622,7 @@ $messages['ps'] = array(
 	'webchat' => 'د جال بنډار',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Indech
  * @author Lijealso
@@ -637,7 +637,7 @@ Utilizadores anónimos recebem um nome gerado automaticamente, que pode ser alte
 	'right-webchat' => 'Usar a [[Special:WebChat|conversação]]',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
@@ -650,7 +650,7 @@ Utilizadores anônimos recebem um apelido gerado aleatoriamente, mas este pode s
 	'right-webchat' => 'Permitido a utilizar o [[Special:WebChat|Bate-papo web]]',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -663,7 +663,7 @@ Le utinde anoneme ne generescene une automateche ma 'u ponne cangià.",
 	'right-webchat' => "Fà ausà 'a [[Special:WebChat|web ciat]]",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ferrer
  * @author Kaganer
  */
@@ -690,7 +690,7 @@ $messages['si'] = array(
 	'right-webchat' => '[[Special:WebChat|වෙබ් කතාබහ]] භාවිතා කිරීමට ඉඩ ලබා දෙයි',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -703,7 +703,7 @@ Anonymní používatelia dostanú automaticky vytvorenú prezývku, ale možno j
 	'right-webchat' => 'Povolené používať [[Special:WebChat|webový chat]]',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -716,7 +716,7 @@ Brezimnim uporabnikom se vzdevek ustvari samodejno, vendar ga je mogoče spremen
 	'right-webchat' => 'Dovoljena uporaba [[Special:WebChat|spletnega klepeta]]',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -729,7 +729,7 @@ $messages['sr-ec'] = array(
 	'right-webchat' => 'коришћење [[Special:WebChat|веб ћаскања]]',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'webchat' => 'Internet ćaskanje',
 	'webchat-desc' => 'Dodaje posebnu stranicu za [[Special:WebChat|ćaskanje s drugim korisnicima]]',
@@ -748,7 +748,7 @@ $messages['su'] = array(
 	'webchat-desc' => 'Nambahkeun [[Special:WebChat|kaca husus]] pikeun ngobrol saharita jeung pamaké wiki lianna',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Skalman
  */
 $messages['sv'] = array(
@@ -809,7 +809,7 @@ $messages['tr'] = array(
 	'webchat' => 'Web sohbet',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Alex Khimich
  * @author NickK
  * @author Prima klasy4na
@@ -845,7 +845,7 @@ $messages['vi'] = array(
 	'right-webchat' => '[[Special:WebChat|Chat trên Web]]',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Chenxiaoqino
  * @author Liangent
  * @author Wilsonmess
@@ -861,7 +861,7 @@ $messages['zh-hans'] = array(
 	'right-webchat' => '允许使用[[Special:WebChat|网络聊天]]',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  * @author Wrightbus
  */
