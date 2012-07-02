@@ -795,7 +795,7 @@ $messages['tl'] = array(
 	'webchat' => 'Satsatan sa web',
 	'webchat-desc' => 'Nagdaragdag ng isang [[Special:WebChat|natatanging pahina]]ng ginagamit sa pakikipagsatsatan sa ibang mga tagagamit ng wiki  habang nasa tunay na panahon',
 	'webchat-header' => 'Nagpapahintulot sa iyo ang natatanging pahinang ito na makipagtulungan sa ibang mga tagagamit ng wiki habang nasa tunay na panahon.
-Upang makakunekta pinduting lang ang pindutang "Kumunekta".
+Upang makakunekta pindutin lang ang pindutang "Kumunekta".
 Kung nakalagda ka paunang malalagyan na ng laman ang palayaw mo. 
 Binibigyan ang hindi nakikilalang mga tagagamit ng isang kusang nalikha, subalit mababago ito.',
 	'right-webchat' => 'Pinayagang gumamit ng [[Special:WebChat|satsatang pangweb]]',
