@@ -133,6 +133,11 @@ $specialPageAliases['pt'] = array(
 	'WebChat' => array( 'Conversação' ),
 );
 
+/** Brazilian Portuguese (português do Brasil) */
+$specialPageAliases['pt-br'] = array(
+	'WebChat' => array( 'Chat' ),
+);
+
 /** Slovenian (slovenščina) */
 $specialPageAliases['sl'] = array(
 	'WebChat' => array( 'SpletnaKlepetalnica' ),
