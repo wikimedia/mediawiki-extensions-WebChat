@@ -81,7 +81,7 @@ A los usuarios anónimos se-yos da unu xeneráu automáticamente, pero pue camud
 	'right-webchat' => 'Permisu pa usar el [[Special:WebChat|chat web]]',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -187,7 +187,7 @@ Sollten Sie im Wiki angemeldet sein, wird standardmäßig Ihr Wiki-Benutzername 
 Andernfalls wird automatisch ein Chatname erzeugt, der allerdings auch noch im Nachhinein geändert werden kann.',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -279,7 +279,7 @@ $messages['frp'] = array(
 	'right-webchat' => 'Pôt utilisar lo [[Special:WebChat|cllavardâjo vouèbe]]',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -327,7 +327,7 @@ $messages['hr'] = array(
 	'right-webchat' => 'Dozvoljeno je rabiti [[Special:WebChat|web chat]]',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -525,9 +525,10 @@ Pengguna tanpa nama diberi nama samaran janaan automatik yang boleh ditukar.',
 	'right-webchat' => 'Dibenarkan menggunakan [[Special:WebChat|sembang web]]',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Harald Khan
  * @author Nghtwlkr
+ * @author Njardarlogar
  */
 $messages['nb'] = array(
 	'webchat' => 'Nettprat',
@@ -824,7 +825,7 @@ $messages['uk'] = array(
 	'right-webchat' => 'Дозволене використання [[Special:WebChat|Web-чату]]',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
