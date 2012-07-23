@@ -429,6 +429,7 @@ $messages['km'] = array(
 
 /** Korean (한국어)
  * @author ITurtle
+ * @author 아라
  */
 $messages['ko'] = array(
 	'webchat' => '웹 채팅',
@@ -436,7 +437,7 @@ $messages['ko'] = array(
 	'webchat-header' => '이 특수 문서로 위키의 다른 사용자와 실시간으로 협업할 수 있습니다.
 연결하시려면, "연결" 버튼을 누르세요.
 로그인하셨으면 자동으로 닉네임이 채워집니다.
-익명 사용자는 임의로 부여하지만, 변경할 수 있습니다.',
+익명 사용자는 임의로 부여하지만, 바꿀 수 있습니다.',
 	'right-webchat' => '[[Special:WebChat|웹 채팅]] 이용을 허용하기',
 );
 
