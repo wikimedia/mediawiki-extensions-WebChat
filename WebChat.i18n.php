@@ -14,13 +14,13 @@ $messages = array();
  * @author Purodha <http://ksh.wikipedia.org/wiki/User:Purodha>
  */
 $messages['en'] = array(
-	'webchat'       => 'Web chat',
-	'webchat-desc'   => 'Adds a [[Special:WebChat|special page]] used to chat in real time with other wiki users',
+	'webchat' => 'Web chat',
+	'webchat-desc' => 'Adds a [[Special:WebChat|special page]] used to chat in real time with other wiki users',
 	'webchat-header' => 'This special page allows you to collaborate in real time with other users of the wiki.
 To connect simply press the "Connect" button.
 If you are logged in your nickname will have been prefilled.
 Anonymous users are given an automatically generated one, but it can be changed.',
-	'right-webchat'  => 'Allowed to use [[Special:WebChat|web chat]]',
+	'right-webchat' => 'Allowed to use [[Special:WebChat|web chat]]',
 );
 
 /** Message documentation (Message documentation)
@@ -28,7 +28,9 @@ Anonymous users are given an automatically generated one, but it can be changed.
  * @author Purodha
  */
 $messages['qqq'] = array(
+	'webchat' => 'Special page title',
 	'webchat-desc' => '{{desc}}',
+	'webchat-header' => 'Introduction text on [[Special:WebChat]]. "Connect" is in an embeddded frame. It should not be translated.',
 	'right-webchat' => '{{doc-right|webchat}}',
 );
 

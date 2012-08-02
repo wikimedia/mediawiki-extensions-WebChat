@@ -4,17 +4,15 @@
  */
 
 class WebChat extends SpecialPage {
-
 	function __construct() {
 		parent::__construct( 'WebChat', 'webchat' );
 	}
 
 	function execute( $par ) {
-		global $wgOut, $wgUser, $wgWebChatServer, $wgWebChatChannel,
-			$wgWebChatClient, $wgWebChatClients;
+		global $wgWebChatServer, $wgWebChatChannel, $wgWebChatClient, $wgWebChatClients;
 
 		$this->setHeaders();
-		$wgOut->addWikiMsg( 'webchat-header' );
+		$this->getOutput()->addWikiMsg( 'webchat-header' );
 
 		if ( !array_key_exists( $wgWebChatClient, $wgWebChatClients ) ) {
 			throw new MwException( 'Unknown web chat client specified.' );
@@ -23,7 +21,9 @@ class WebChat extends SpecialPage {
 		foreach ( $wgWebChatClients[$wgWebChatClient]['parameters'] as $parameter => $value ) {
 			switch ( $value ) {
 				case '$$$nick$$$':
-					if ( $wgUser->isLoggedIn() ) $value = str_replace( ' ', '_', $wgUser->getName() );
+					if ( $this->getUser()->isLoggedIn() ) {
+						$value = str_replace( ' ', '_', $this->getUser()->getName() );
+					}
 					break;
 				case '$$$channel$$$':
 					$value = $wgWebChatChannel;
@@ -36,7 +36,7 @@ class WebChat extends SpecialPage {
 		}
 		$query = implode( $query, '&' );
 
-		$wgOut->addHTML( Xml::openElement( 'iframe', array(
+		$this->getOutput()->addHTML( Xml::openElement( 'iframe', array(
 			'width'     => '100%',
 			'height'    => '500',
 			'scrolling' => 'no',
@@ -46,7 +46,7 @@ class WebChat extends SpecialPage {
 		) ) . Xml::closeElement( 'iframe' ) );
 
 		// Hack to make the chat area a reasonable size.
-		$wgOut->addHTML( Xml::tags( 'script',
+		$this->getOutput()->addHTML( Xml::tags( 'script',
 			array( 'type' => 'text/javascript' ),
 '/* <![CDATA[ */
 function webChatExpand( elem ) {
@@ -55,6 +55,5 @@ function webChatExpand( elem ) {
 }
 /* ]]> */'
 			) );
-
 	}
 }

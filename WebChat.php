@@ -25,7 +25,7 @@ $wgExtensionCredits[ 'specialpage' ][] = array(
 	'descriptionmsg' => 'webchat-desc',
 	'author'         => array( 'Robert Leverington', 'Marco 27' ),
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:WebChat',
-	'version'        => '1.0.0',
+	'version'        => '1.1.0',
 );
 
 $dir = dirname( __FILE__ ) . '/';
