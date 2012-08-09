@@ -654,6 +654,13 @@ Utilizadores anônimos recebem um apelido gerado aleatoriamente, mas este pode s
 	'right-webchat' => 'Permitido a utilizar o [[Special:WebChat|Bate-papo web]]',
 );
 
+/** Romanian (română)
+ * @author Stelistcristi
+ */
+$messages['ro'] = array(
+	'webchat' => 'Chat web',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
