@@ -655,10 +655,12 @@ Utilizadores anônimos recebem um apelido gerado aleatoriamente, mas este pode s
 );
 
 /** Romanian (română)
+ * @author Minisarm
  * @author Stelistcristi
  */
 $messages['ro'] = array(
 	'webchat' => 'Chat web',
+	'right-webchat' => 'Poate utiliza [[Special:WebChat|web chat]]ul',
 );
 
 /** tarandíne (tarandíne)
