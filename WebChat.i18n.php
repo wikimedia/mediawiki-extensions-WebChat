@@ -660,7 +660,7 @@ Utilizadores anônimos recebem um apelido gerado aleatoriamente, mas este pode s
  */
 $messages['ro'] = array(
 	'webchat' => 'Chat web',
-	'right-webchat' => 'Poate utiliza [[Special:WebChat|web chat]]ul',
+	'right-webchat' => 'Poate utiliza [[Special:WebChat|chatul web]]',
 );
 
 /** tarandíne (tarandíne)
