@@ -113,7 +113,7 @@ $specialPageAliases['mr'] = array(
 	'WebChat' => array( 'वेबगप्पा' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'WebChat' => array( 'Chat' ),
 );
@@ -153,12 +153,12 @@ $specialPageAliases['tt-cyrl'] = array(
 	'WebChat' => array( 'Веб-чат' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'WebChat' => array( '网上聊天' ),
 );
 
-/** Traditional Chinese (‪中文（繁體）‬) */
+/** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
 	'WebChat' => array( '網上聊天' ),
 );
