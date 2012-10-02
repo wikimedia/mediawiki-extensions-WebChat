@@ -83,7 +83,7 @@ A los usuarios anónimos se-yos da unu xeneráu automáticamente, pero pue camud
 	'right-webchat' => 'Permisu pa usar el [[Special:WebChat|chat web]]',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -178,7 +178,7 @@ Andernfalls wird automatisch ein Chatname erzeugt, der allerdings auch noch im N
 	'right-webchat' => 'Spezialseite [[Special:WebChat|Web-Chat]] nutzen',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  * @author Merlissimo
  */
@@ -528,7 +528,7 @@ Pengguna tanpa nama diberi nama samaran janaan automatik yang boleh ditukar.',
 	'right-webchat' => 'Dibenarkan menggunakan [[Special:WebChat|sembang web]]',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Harald Khan
  * @author Nghtwlkr
  * @author Njardarlogar
@@ -565,7 +565,7 @@ Anonieme gebruikers krijgen een automatisch aangemaakte gebruikersnaam die later
 	'right-webchat' => 'Maakt het mogelijk [[Special:WebChat|webchat]] te gebruiken',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Gunnernett
  * @author Harald Khan
  * @author Njardarlogar
@@ -729,7 +729,7 @@ Brezimnim uporabnikom se vzdevek ustvari samodejno, vendar ga je mogoče spremen
 	'right-webchat' => 'Dovoljena uporaba [[Special:WebChat|spletnega klepeta]]',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -742,7 +742,7 @@ $messages['sr-ec'] = array(
 	'right-webchat' => 'коришћење [[Special:WebChat|веб ћаскања]]',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $messages['sr-el'] = array(
 	'webchat' => 'Internet ćaskanje',
 	'webchat-desc' => 'Dodaje posebnu stranicu za [[Special:WebChat|ćaskanje s drugim korisnicima]]',
@@ -858,7 +858,7 @@ $messages['vi'] = array(
 	'right-webchat' => '[[Special:WebChat|Chat trên Web]]',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Chenxiaoqino
  * @author Liangent
  * @author Wilsonmess
@@ -874,7 +874,7 @@ $messages['zh-hans'] = array(
 	'right-webchat' => '允许使用[[Special:WebChat|网络聊天]]',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
  * @author Wrightbus
  */
