@@ -742,7 +742,8 @@ $messages['sr-ec'] = array(
 	'right-webchat' => 'коришћење [[Special:WebChat|веб ћаскања]]',
 );
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'webchat' => 'Internet ćaskanje',
 	'webchat-desc' => 'Dodaje posebnu stranicu za [[Special:WebChat|ćaskanje s drugim korisnicima]]',
@@ -887,4 +888,3 @@ $messages['zh-hant'] = array(
 如果您是匿名用戶，系統將自動產生一個暱稱，不過登入後可以進行修改。',
 	'right-webchat' => '允許使用[[Special:WebChat|線上聊天]]',
 );
-
