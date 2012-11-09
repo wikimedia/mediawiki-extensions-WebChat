@@ -155,7 +155,7 @@ $specialPageAliases['tt-cyrl'] = array(
 
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
-	'WebChat' => array( '网上聊天' ),
+	'WebChat' => array( '在线聊天' ),
 );
 
 /** Traditional Chinese (中文（繁體）‎) */
