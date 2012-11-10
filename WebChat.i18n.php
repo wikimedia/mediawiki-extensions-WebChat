@@ -775,6 +775,13 @@ Anonyma användare får ett automatiskt genererat användarnamn, men det kan än
 	'right-webchat' => 'Får använda [[Special:WebChat|webbchatten]]',
 );
 
+/** Tamil (தமிழ்)
+ * @author மதனாஹரன்
+ */
+$messages['ta'] = array(
+	'webchat' => 'வலையரட்டை',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
