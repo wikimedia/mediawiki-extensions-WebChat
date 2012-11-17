@@ -78,6 +78,11 @@ $specialPageAliases['id'] = array(
 	'WebChat' => array( 'Obrolan_web', 'ObrolanWeb' ),
 );
 
+/** Italian (italiano) */
+$specialPageAliases['it'] = array(
+	'WebChat' => array( 'ChatWeb' ),
+);
+
 /** Japanese (日本語) */
 $specialPageAliases['ja'] = array(
 	'WebChat' => array( 'ウェブチャット' ),
