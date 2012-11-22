@@ -143,6 +143,11 @@ $specialPageAliases['pt-br'] = array(
 	'WebChat' => array( 'Chat' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'WebChat' => array( 'ChatWeb' ),
+);
+
 /** Slovenian (slovenščina) */
 $specialPageAliases['sl'] = array(
 	'WebChat' => array( 'SpletnaKlepetalnica' ),
