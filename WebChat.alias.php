@@ -133,6 +133,11 @@ $specialPageAliases['nl'] = array(
 	'WebChat' => array( 'WebChat' ),
 );
 
+/** Punjabi (ਪੰਜਾਬੀ) */
+$specialPageAliases['pa'] = array(
+	'WebChat' => array( 'ਵੈੱਬ_ਚਰਚਾ' ),
+);
+
 /** Portuguese (português) */
 $specialPageAliases['pt'] = array(
 	'WebChat' => array( 'Conversação' ),
