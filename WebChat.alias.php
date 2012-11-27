@@ -123,7 +123,7 @@ $specialPageAliases['nb'] = array(
 	'WebChat' => array( 'Chat' ),
 );
 
-/** Nedersaksisch (Nedersaksisch) */
+/** Nedersaksies (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'WebChat' => array( 'Draodpraot' ),
 );
