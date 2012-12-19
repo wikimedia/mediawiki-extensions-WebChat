@@ -26,10 +26,11 @@ Anonymous users are given an automatically generated one, but it can be changed.
 /** Message documentation (Message documentation)
  * @author Fryed-peach
  * @author Purodha
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'webchat' => 'Special page title',
-	'webchat-desc' => '{{desc}}',
+	'webchat-desc' => '{{desc|name=Web Chat|url=http://www.mediawiki.org/wiki/Extension:WebChat}}',
 	'webchat-header' => 'Introduction text on [[Special:WebChat]]. "Connect" is in an embeddded frame. It should not be translated.',
 	'right-webchat' => '{{doc-right|webchat}}',
 );
