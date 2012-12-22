@@ -71,6 +71,13 @@ $messages['ar'] = array(
 	'right-webchat' => 'السماح باستخذام [[Special:WebChat|دردشة الوب]]',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
+ */
+$messages['arc'] = array(
+	'webchat' => 'ܣܘܘܕܐ ܕܘܝܒ',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
