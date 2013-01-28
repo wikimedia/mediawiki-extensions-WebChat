@@ -123,7 +123,7 @@ $specialPageAliases['nb'] = array(
 	'WebChat' => array( 'Chat' ),
 );
 
-/** Nedersaksies (Nedersaksies) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'WebChat' => array( 'Draodpraot' ),
 );
