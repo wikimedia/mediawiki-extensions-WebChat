@@ -103,6 +103,11 @@ $specialPageAliases['lb'] = array(
 	'WebChat' => array( 'Web-Chat' ),
 );
 
+/** Minangkabau (Baso Minangkabau) */
+$specialPageAliases['min'] = array(
+	'WebChat' => array( 'OtaWeb' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'WebChat' => array( 'МрежРазг' ),
