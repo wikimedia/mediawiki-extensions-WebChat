@@ -123,7 +123,7 @@ $specialPageAliases['mr'] = array(
 	'WebChat' => array( 'वेबगप्पा' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'WebChat' => array( 'Chat' ),
 );
