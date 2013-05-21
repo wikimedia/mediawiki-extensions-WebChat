@@ -173,6 +173,11 @@ $specialPageAliases['tt-cyrl'] = array(
 	'WebChat' => array( 'Веб-чат' ),
 );
 
+/** Vietnamese (Tiếng Việt) */
+$specialPageAliases['vi'] = array(
+	'WebChat' => array( 'Trò_chuyện_Web' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'WebChat' => array( '在线聊天' ),
