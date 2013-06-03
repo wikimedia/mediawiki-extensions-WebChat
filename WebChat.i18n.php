@@ -23,10 +23,7 @@ Anonymous users are given an automatically generated one, but it can be changed.
 	'right-webchat' => 'Allowed to use [[Special:WebChat|web chat]]',
 );
 
-/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always.
-
-It might be easier to translate it as "translation guidelines" or "translation help".
-{{Identical|Message documentation}})
+/** Message documentation (Message documentation)
  * @author Fryed-peach
  * @author Purodha
  * @author Shirayuki
@@ -237,6 +234,7 @@ $messages['eo'] = array(
  * @author Antur
  * @author Dferg
  * @author Locos epraix
+ * @author MarcoAurelio
  */
 $messages['es'] = array(
 	'webchat' => 'Web chat',
@@ -539,7 +537,7 @@ Pengguna tanpa nama diberi nama samaran janaan automatik yang boleh ditukar.',
 	'right-webchat' => 'Dibenarkan menggunakan [[Special:WebChat|sembang web]]',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Harald Khan
  * @author Nghtwlkr
  * @author Njardarlogar
@@ -576,7 +574,7 @@ Anonieme gebruikers krijgen een automatisch aangemaakte gebruikersnaam die later
 	'right-webchat' => 'Maakt het mogelijk [[Special:WebChat|webchat]] te gebruiken',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Gunnernett
  * @author Harald Khan
  * @author Njardarlogar
