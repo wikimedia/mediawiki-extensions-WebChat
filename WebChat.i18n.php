@@ -875,10 +875,10 @@ $messages['vi'] = array(
 	'webchat' => 'Chat trên Web',
 	'webchat-desc' => 'Thêm một [[Special:WebChat|trang đặc biệt]] để chat với các người dùng khác trong thời gian thực',
 	'webchat-header' => 'Trang đặc biệt này giúp bạn cộng tác với các người dùng khác trong thời gian thực.
-Để kết nối hãy nhấn nút "Connect".
+Để kết nối hãy nhấn nút “Connect”.
 Nếu bạn đã đăng nhập thì biệt danh của bạn là tên đăng nhập của bạn.
 Người dùng vô danh sẽ được tạo một biệt hiệu ngẫu nhiên, nhưng nó có thể thay đổi.',
-	'right-webchat' => 'Cho phép sử dụng [[Special:WebChat|Chat trên Web]]',
+	'right-webchat' => 'Cho phép sử dụng [[Special:WebChat|chat trên Web]]',
 );
 
 /** Simplified Chinese (中文（简体）‎)
