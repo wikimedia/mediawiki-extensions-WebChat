@@ -30,7 +30,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'WebChat' => array( 'Websohbet' ),
+	'WebChat' => array( 'WebMehbet' ),
 );
 
 /** Esperanto (Esperanto) */
