@@ -444,7 +444,7 @@ $messages['km'] = array(
  */
 $messages['ko'] = array(
 	'webchat' => '웹 채팅',
-	'webchat-desc' => '위키의 다른 사용자와 실시간으로 대화할 수 있는 [[Special:WebChat|특수 문서]]를 추가합니다.',
+	'webchat-desc' => '위키의 다른 사용자와 실시간으로 대화할 수 있는 [[Special:WebChat|특수 문서]]를 추가합니다',
 	'webchat-header' => '이 특수 문서로 위키의 다른 사용자와 실시간으로 협업할 수 있습니다.
 연결하시려면, "연결" 버튼을 누르세요.
 로그인하셨으면 자동으로 닉네임이 채워집니다.
