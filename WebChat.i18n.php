@@ -31,7 +31,8 @@ Anonymous users are given an automatically generated one, but it can be changed.
 $messages['qqq'] = array(
 	'webchat' => '{{doc-special|WebChat}}',
 	'webchat-desc' => '{{desc|name=Web Chat|url=http://www.mediawiki.org/wiki/Extension:WebChat}}',
-	'webchat-header' => 'Introduction text on [[Special:WebChat]]. "Connect" is in an embeddded frame. It should not be translated.',
+	'webchat-header' => '{{doc-important|"Connect" is in an embedded frame. It should not be translated.}}
+Introduction text on [[Special:WebChat]].',
 	'right-webchat' => '{{doc-right|webchat}}',
 );
 
