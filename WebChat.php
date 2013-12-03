@@ -54,7 +54,7 @@ $wgWebChatClients = array(
 		),
 	),
 	'freenodeChat' => array(
-		'url' => 'http://webchat.freenode.net/',
+		'url' => '//webchat.freenode.net/',
 		'parameters' => array(
 			'channels' => '$$$channel$$$',
 			'nick'    => '$$$nick$$$',
