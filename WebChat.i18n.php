@@ -157,7 +157,7 @@ $messages['ca'] = array(
 	'right-webchat' => "Tenir permès l'ús del [[Special:WebChat|xat web]]",
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Matěj Grabovský
  * @author Mormegil
  */
