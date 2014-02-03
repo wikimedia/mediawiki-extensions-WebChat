@@ -256,6 +256,14 @@ $messages['eu'] = array(
 	'right-webchat' => '[[Special:WebChat|Web bidezko txata]] erabiltzeko baimendua',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'webchat' => 'گفتگوی وب',
+	'right-webchat' => 'اجازه داده شده به استفادهٔ [[Special:WebChat|گفتگوی وب]]',
+);
+
 /** Finnish (suomi)
  * @author Str4nd
  */
