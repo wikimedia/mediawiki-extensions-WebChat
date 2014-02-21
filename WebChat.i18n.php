@@ -613,6 +613,7 @@ Pels utilizaires anonims, un escais es creat automaticament, mas aqueste pòt è
 );
 
 /** Polish (polski)
+ * @author Chrumps
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -620,7 +621,7 @@ $messages['pl'] = array(
 	'webchat-desc' => 'Dodaje [[Special:WebChat|stronę specjalną]] pozwalającą na prowadzenie rozmów w czasie rzeczywistym z innymi użytkownikami wiki',
 	'webchat-header' => 'Ta specjalna strona pozwala na współpracę w czasie rzeczywistym z innymi użytkownikami wiki.
 Aby się połączyć po prostu naciśnij przycisk „Połącz”.
-Jeśli jesteś zalogowany pseudonim zostanie wstępnie ustawiony.
+Jeśli jesteś zalogowany, pseudonim zostanie wstępnie ustawiony.
 Anonimowi użytkownicy otrzymują automatycznie wygenerowany pseudonim, ale mogą go zmienić.',
 	'right-webchat' => 'Dostęp do korzystania z [[Special:WebChat|czatu webowego]]',
 );
