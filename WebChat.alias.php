@@ -191,5 +191,5 @@ $specialPageAliases['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
-	'WebChat' => array( '網上聊天' ),
+	'WebChat' => array( '線上聊天' ),
 );
