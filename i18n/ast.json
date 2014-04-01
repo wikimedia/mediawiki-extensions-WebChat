@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Xuacu"
+        ]
+    },
+    "webchat": "Chat web",
+    "webchat-desc": "Amiesta una [[Special:WebChat|páxina especial]] que s'usa pa charrar en tiempu real con otros usuarios de la wiki",
+    "webchat-header": "Esta páxina especial te permite collaborar en tiempu real con otros usuarios de la wiki.\nPa coneutate val con que calques nel botón \"Coneutar\".\nSi tas coneutáu, yá tará rellenáu col to nomatu.\nA los usuarios anónimos se-yos da unu xeneráu automáticamente, pero pue camudar.",
+    "right-webchat": "Permisu pa usar el [[Special:WebChat|chat web]]"
+}
