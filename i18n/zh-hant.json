@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Mark85296341",
-            "Wrightbus"
-        ]
-    },
-    "webchat": "網上聊天",
-    "webchat-desc": "加入一個用於與其他用戶實時聊天的[[Special:WebChat|專頁]]",
-    "webchat-header": "該特殊頁面允許您與其他維基人進行實時的協同合作。\n點擊「連接」繼續。\n如果您已登入，那麼您的暱稱將被自動輸入。\n如果您是匿名用戶，系統將自動產生一個暱稱，不過登入後可以進行修改。",
-    "right-webchat": "允許使用[[Special:WebChat|線上聊天]]"
+	"@metadata": {
+		"authors": [
+			"Mark85296341",
+			"Wrightbus"
+		]
+	},
+	"webchat": "網上聊天",
+	"webchat-desc": "加入一個用於與其他用戶實時聊天的[[Special:WebChat|專頁]]",
+	"webchat-header": "該特殊頁面允許您與其他維基人進行實時的協同合作。\n點擊「連接」繼續。\n如果您已登入，那麼您的暱稱將被自動輸入。\n如果您是匿名用戶，系統將自動產生一個暱稱，不過登入後可以進行修改。",
+	"right-webchat": "允許使用[[Special:WebChat|線上聊天]]"
 }

@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Purodha"
-        ]
-    },
-    "webchat": "Web Tschätt - sesch meddenein Schriive",
-    "webchat-desc": "Brengk en [[Special:WebChat|Söndersigg]] wo dröver mer sesch met ander Metmaacher fum Wiki em IRC schriive kann",
-    "webchat-header": "Hee die Söndersigg määt et müjjelisch, met ander Metmaacher övver ene Tschätt zosamme zo ärbeide.\nÖm en Verbindong opzemaache, klick op dä <i lang=\"en\">„Connect“</i>-Lengk.\nWann De enjelogg bes, es Dinge Metmaacher-Name ald als Dinge Name em Tschätt vörjeschlaare.\nNamelose Medmaacher krijje ene automatisch erfonge Name vörjeschlaare, ävver alle beeds kam_mer ändere.",
-    "right-webchat": "Der [[Special:WebChat|Tschätt övver et Web]] bruche"
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"webchat": "Web Tschätt - sesch meddenein Schriive",
+	"webchat-desc": "Brengk en [[Special:WebChat|Söndersigg]] wo dröver mer sesch met ander Metmaacher fum Wiki em IRC schriive kann",
+	"webchat-header": "Hee die Söndersigg määt et müjjelisch, met ander Metmaacher övver ene Tschätt zosamme zo ärbeide.\nÖm en Verbindong opzemaache, klick op dä <i lang=\"en\">„Connect“</i>-Lengk.\nWann De enjelogg bes, es Dinge Metmaacher-Name ald als Dinge Name em Tschätt vörjeschlaare.\nNamelose Medmaacher krijje ene automatisch erfonge Name vörjeschlaare, ävver alle beeds kam_mer ändere.",
+	"right-webchat": "Der [[Special:WebChat|Tschätt övver et Web]] bruche"
 }

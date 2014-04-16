@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Emperyan",
-            "Vito Genovese"
-        ]
-    },
-    "webchat": "Web sohbet"
+	"@metadata": {
+		"authors": [
+			"Emperyan",
+			"Vito Genovese"
+		]
+	},
+	"webchat": "Web sohbet"
 }

@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "IAlex",
-            "Urhixidur"
-        ]
-    },
-    "webchat": "Clavardage web",
-    "webchat-desc": "Ajoute une [[Special:WebChat|page spéciale]] utilisée pour clavarder en temps réel avec d’autres utilisateurs du wiki.",
-    "webchat-header": "Cette page spéciale vous permet de collaborer en temps réel avec d’autres utilisateurs du wiki.\nPour vous connecter, cliquez simplement sur le bouton « {{int:login}} ».\nSi vous êtes enregistré, votre pseudonyme est prédéfini à l’aide de votre nom d’utilisateur.\nPour les utilisateurs anonymes, un pseudonyme est créé automatiquement, mais celui-ci peut être modifié.",
-    "right-webchat": "Peut utiliser le [[Special:WebChat|clavardage web]]"
+	"@metadata": {
+		"authors": [
+			"IAlex",
+			"Urhixidur"
+		]
+	},
+	"webchat": "Clavardage web",
+	"webchat-desc": "Ajoute une [[Special:WebChat|page spéciale]] utilisée pour clavarder en temps réel avec d’autres utilisateurs du wiki.",
+	"webchat-header": "Cette page spéciale vous permet de collaborer en temps réel avec d’autres utilisateurs du wiki.\nPour vous connecter, cliquez simplement sur le bouton « {{int:login}} ».\nSi vous êtes enregistré, votre pseudonyme est prédéfini à l’aide de votre nom d’utilisateur.\nPour les utilisateurs anonymes, un pseudonyme est créé automatiquement, mais celui-ci peut être modifié.",
+	"right-webchat": "Peut utiliser le [[Special:WebChat|clavardage web]]"
 }

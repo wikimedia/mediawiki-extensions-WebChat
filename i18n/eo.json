@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Yekrats"
-        ]
-    },
-    "webchat": "Retbabilo",
-    "right-webchat": "Permesita uzi [[Special:WebChat|Babilejon]]"
+	"@metadata": {
+		"authors": [
+			"Yekrats"
+		]
+	},
+	"webchat": "Retbabilo",
+	"right-webchat": "Permesita uzi [[Special:WebChat|Babilejon]]"
 }
