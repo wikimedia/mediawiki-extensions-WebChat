@@ -179,6 +179,11 @@ $specialPageAliases['tt-cyrl'] = array(
 	'WebChat' => array( 'Веб-чат' ),
 );
 
+/** Ukrainian (українська) */
+$specialPageAliases['uk'] = array(
+	'WebChat' => array( 'Веб-чат' ),
+);
+
 /** Vietnamese (Tiếng Việt) */
 $specialPageAliases['vi'] = array(
 	'WebChat' => array( 'Trò_chuyện_Web' ),
