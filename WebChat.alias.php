@@ -69,6 +69,11 @@ $specialPageAliases['gsw'] = array(
 	'WebChat' => array( 'Web-Chat' ),
 );
 
+/** Upper Sorbian (hornjoserbsce) */
+$specialPageAliases['hsb'] = array(
+	'WebChat' => array( 'WebChat' ),
+);
+
 /** Haitian (Kreyòl ayisyen) */
 $specialPageAliases['ht'] = array(
 	'WebChat' => array( 'Klavardaj' ),
