@@ -3,11 +3,12 @@
 		"authors": [
 			"Fryed-peach",
 			"Purodha",
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
 	"webchat": "{{doc-special|WebChat}}",
-	"webchat-desc": "{{desc|name=Web Chat|url=http://www.mediawiki.org/wiki/Extension:WebChat}}",
+	"webchat-desc": "{{desc|name=Web Chat|url=https://www.mediawiki.org/wiki/Extension:WebChat}}",
 	"webchat-header": "{{doc-important|\"Connect\" is in an embedded frame. It should not be translated.}}\nIntroduction text on [[Special:WebChat]].",
 	"right-webchat": "{{doc-right|webchat}}"
 }
