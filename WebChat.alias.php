@@ -114,6 +114,11 @@ $specialPageAliases['lb'] = array(
 	'WebChat' => array( 'Web-Chat' ),
 );
 
+/** لوری (لوری) */
+$specialPageAliases['lrc'] = array(
+	'WebChat' => array( 'انجوما_گپ' ),
+);
+
 /** Minangkabau (Baso Minangkabau) */
 $specialPageAliases['min'] = array(
 	'WebChat' => array( 'OtaWeb' ),
