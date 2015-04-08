@@ -29,6 +29,11 @@ $specialPageAliases['bg'] = array(
 	'WebChat' => array( 'Уеб_чат' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'WebChat' => array( 'ویب_چٹ' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'WebChat' => array( 'Web-Chat', 'Chat' ),
