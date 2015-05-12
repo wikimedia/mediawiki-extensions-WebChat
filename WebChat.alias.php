@@ -19,7 +19,7 @@ $specialPageAliases['ar'] = array(
 	'WebChat' => array( 'دردشة_الويب' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'WebChat' => array( 'شات_الويب' ),
 );
@@ -119,7 +119,7 @@ $specialPageAliases['lb'] = array(
 	'WebChat' => array( 'Web-Chat' ),
 );
 
-/** لوری (لوری) */
+/** لوری مینجایی (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'WebChat' => array( 'انجوما_گپ' ),
 );
