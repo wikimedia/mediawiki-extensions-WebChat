@@ -119,7 +119,7 @@ $specialPageAliases['lb'] = array(
 	'WebChat' => array( 'Web-Chat' ),
 );
 
-/** لوری مینجایی (لوری مینجایی) */
+/** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'WebChat' => array( 'انجوما_گپ' ),
 );

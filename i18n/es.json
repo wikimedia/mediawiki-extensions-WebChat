@@ -4,11 +4,12 @@
 			"Antur",
 			"Dferg",
 			"Locos epraix",
-			"MarcoAurelio"
+			"MarcoAurelio",
+			"Macofe"
 		]
 	},
 	"webchat": "Web chat",
 	"webchat-desc": "Añade una [[Special:WebChat|página especial]] usada para chatear en vivo con otros usuarios del proyecto",
-	"webchat-header": "Esta página especial le permite colaborar en tiempo real con otros usuarios de la wiki.\nPara conectarse oprima simplemente el botón \"Conectar\"-\nSi Ud. ya se ha logueado, su nombre de usuario estará preseleccionado.\nLos usuarios anónimos obtienen un usuario generado automáticamente, que puede modificarse.",
+	"webchat-header": "Esta página especial te permite colaborar en tiempo real con otros usuarios de la wiki.\nPara conectarse simplemente oprime el botón \"Connect\".\nSi has iniciado sesión, tu nombre de usuario estará preseleccionado.\nLos usuarios anónimos obtienen un usuario generado automáticamente, que puede modificarse.",
 	"right-webchat": "Se permite usar [[Special:WebChat|web chat]]"
 }
