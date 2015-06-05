@@ -121,7 +121,7 @@ $specialPageAliases['lb'] = array(
 
 /** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
-	'WebChat' => array( 'انجوما_گپ' ),
+	'WebChat' => array( 'أنجوما_گأپ' ),
 );
 
 /** Minangkabau (Baso Minangkabau) */
