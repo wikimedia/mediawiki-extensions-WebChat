@@ -32,7 +32,6 @@ $dir = dirname( __FILE__ ) . '/';
 
 // Register special page.
 $wgSpecialPages['WebChat'] = 'WebChat';
-$wgSpecialPageGroups['WebChat'] = 'wiki';
 $wgAutoloadClasses['WebChat'] = $dir . 'WebChat_body.php';
 
 // Extension messages.

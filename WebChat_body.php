@@ -56,4 +56,8 @@ function webChatExpand( elem ) {
 /* ]]> */'
 			) );
 	}
+
+	protected function getGroupName() {
+		return 'wiki';
+	}
 }
