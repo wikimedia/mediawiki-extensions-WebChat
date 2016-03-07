@@ -26,7 +26,7 @@ $wgExtensionCredits[ 'specialpage' ][] = [
 	'descriptionmsg' => 'webchat-desc',
 	'author'         => [ 'Robert Leverington', 'Marco 27' ],
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:WebChat',
-	'version'        => '1.2.0',
+	'version'        => '1.3.0',
 ];
 
 $dir = __DIR__ . '/';
@@ -37,7 +37,6 @@ $wgAutoloadClasses['WebChat'] = $dir . 'WebChat_body.php';
 
 // Extension messages.
 $wgMessagesDirs['WebChat'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['WebChat'] =  $dir . 'WebChat.i18n.php';
 $wgExtensionMessagesFiles['WebChatAlias'] =  $dir . 'WebChat.alias.php';
 
 // Default configuration.

@@ -4,11 +4,11 @@
  */
 
 class WebChat extends SpecialPage {
-	function __construct() {
+	public function __construct() {
 		parent::__construct( 'WebChat', 'webchat' );
 	}
 
-	function execute( $par ) {
+	public function execute( $par ) {
 		global $wgWebChatServer, $wgWebChatChannel, $wgWebChatClient, $wgWebChatClients;
 
 		$this->setHeaders();
@@ -17,6 +17,8 @@ class WebChat extends SpecialPage {
 		if ( !array_key_exists( $wgWebChatClient, $wgWebChatClients ) ) {
 			throw new MwException( 'Unknown web chat client specified.' );
 		}
+
+		$query = [];
 
 		foreach ( $wgWebChatClients[$wgWebChatClient]['parameters'] as $parameter => $value ) {
 			switch ( $value ) {
