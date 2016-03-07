@@ -36,18 +36,18 @@ class WebChat extends SpecialPage {
 		}
 		$query = implode( $query, '&' );
 
-		$this->getOutput()->addHTML( Xml::openElement( 'iframe', array(
+		$this->getOutput()->addHTML( Xml::openElement( 'iframe', [
 			'width'     => '100%',
 			'height'    => '500',
 			'scrolling' => 'no',
 			'border'    => '0',
 			'onLoad'    => 'webChatExpand( this )',
 			'src'       => $wgWebChatClients[$wgWebChatClient]['url'] . '?' . $query
-		) ) . Xml::closeElement( 'iframe' ) );
+		] ) . Xml::closeElement( 'iframe' ) );
 
 		// Hack to make the chat area a reasonable size.
 		$this->getOutput()->addHTML( Xml::tags( 'script',
-			array( 'type' => 'text/javascript' ),
+			[ 'type' => 'text/javascript' ],
 '/* <![CDATA[ */
 function webChatExpand( elem ) {
 	height = elem.height;

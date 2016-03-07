@@ -16,19 +16,20 @@
  */
 
 // If this is run directly from the web die as this is not a valid entry point.
-if ( !defined( 'MEDIAWIKI' ) ) die( 'Invalid entry point.' );
+if ( !defined( 'MEDIAWIKI' ) ) { die( 'Invalid entry point.' );
+}
 
 // Extension credits.
-$wgExtensionCredits[ 'specialpage' ][] = array(
+$wgExtensionCredits[ 'specialpage' ][] = [
 	'path'           => __FILE__,
 	'name'           => 'WebChat',
 	'descriptionmsg' => 'webchat-desc',
-	'author'         => array( 'Robert Leverington', 'Marco 27' ),
+	'author'         => [ 'Robert Leverington', 'Marco 27' ],
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:WebChat',
 	'version'        => '1.2.0',
-);
+];
 
-$dir = dirname( __FILE__ ) . '/';
+$dir = __DIR__ . '/';
 
 // Register special page.
 $wgSpecialPages['WebChat'] = 'WebChat';
@@ -43,24 +44,24 @@ $wgExtensionMessagesFiles['WebChatAlias'] =  $dir . 'WebChat.alias.php';
 $wgWebChatServer  = '';
 $wgWebChatChannel = '';
 $wgWebChatClient  = '';
-$wgWebChatClients = array(
-	'Mibbit' => array(
+$wgWebChatClients = [
+	'Mibbit' => [
 		'url' => 'http://embed.mibbit.com/index.html',
-		'parameters' => array(
+		'parameters' => [
 			'noServerMotd' => 'true',
 			'server'  => '$$$server$$$',
 			'channel' => '$$$channel$$$',
 			'nick'    => '$$$nick$$$',
-		),
-	),
-	'freenodeChat' => array(
+		],
+	],
+	'freenodeChat' => [
 		'url' => '//webchat.freenode.net/',
-		'parameters' => array(
+		'parameters' => [
 			'channels' => '$$$channel$$$',
 			'nick'    => '$$$nick$$$',
-		),
-	)
-);
+		],
+	]
+];
 
 // Default permissions.
 $wgAvailableRights[] = 'webchat';
