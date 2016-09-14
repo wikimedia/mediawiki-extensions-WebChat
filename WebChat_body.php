@@ -53,7 +53,7 @@ class WebChat extends SpecialPage {
 '/* <![CDATA[ */
 function webChatExpand( elem ) {
 	height = elem.height;
-	elem.height = screen.height - 500;
+	elem.height = window.innerHeight;
 }
 /* ]]> */'
 			) );
