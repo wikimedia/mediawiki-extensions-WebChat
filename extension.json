@@ -1,0 +1,63 @@
+{
+	"name": "WebChat",
+	"version": "1.3.0",
+	"author": [
+		"Robert Leverington",
+		"Marco 27"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:WebChat",
+	"descriptionmsg": "webchat-desc",
+	"type": "specialpage",
+	"GroupPermissions": {
+		"*": {
+			"webchat": false
+		},
+		"user": {
+			"webchat": true
+		},
+		"sysop": {
+			"webchat": true
+		}
+	},
+	"AvailableRights": [
+		"webchat"
+	],
+	"SpecialPages": {
+		"WebChat": "WebChat"
+	},
+	"MessagesDirs": {
+		"WebChat": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"WebChatAlias": "WebChat.alias.php"
+	},
+	"AutoloadClasses": {
+		"WebChat": "WebChat_body.php"
+	},
+	"config": {
+		"WebChatServer": "",
+		"WebChatChannel": "",
+		"WebChatClient": "",
+		"WebChatClients": {
+			"Mibbit": {
+				"url": "http://embed.mibbit.com/index.html",
+				"parameters": {
+					"noServerMotd": "true",
+					"server": "$$$server$$$",
+					"channel": "$$$channel$$$",
+					"nick": "$$$nick$$$"
+				}
+			},
+			"freenodeChat": {
+				"url": "//webchat.freenode.net/",
+				"parameters": {
+					"channels": "$$$channel$$$",
+					"nick": "$$$nick$$$"
+				}
+			}
+		}
+	},
+	"manifest_version": 1
+}
