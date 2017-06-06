@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ex13"
+			"Ex13",
+			"Bugoslav"
 		]
 	},
-	"webchat": "Web chat",
+	"webchat": "Mrežna razgovaraonica",
 	"right-webchat": "Dozvoljeno je rabiti [[Special:WebChat|web chat]]"
 }
