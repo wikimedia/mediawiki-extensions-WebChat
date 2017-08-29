@@ -45,7 +45,7 @@ $wgWebChatChannel = '';
 $wgWebChatClient  = '';
 $wgWebChatClients = [
 	'Mibbit' => [
-		'url' => 'http://embed.mibbit.com/index.html',
+		'url' => '//embed.mibbit.com/index.html',
 		'parameters' => [
 			'noServerMotd' => 'true',
 			'server'  => '$$$server$$$',
@@ -64,6 +64,6 @@ $wgWebChatClients = [
 
 // Default permissions.
 $wgAvailableRights[] = 'webchat';
-$wgGroupPermissions['*'    ]['webchat'] = false;
+$wgGroupPermissions['*']['webchat'] = false;
 $wgGroupPermissions['user' ]['webchat'] = true;
 $wgGroupPermissions['sysop']['webchat'] = true;
