@@ -8,6 +8,9 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:WebChat",
 	"descriptionmsg": "webchat-desc",
 	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
 	"GroupPermissions": {
 		"*": {
 			"webchat": false
