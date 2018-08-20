@@ -36,7 +36,7 @@ class WebChat extends SpecialPage {
 			}
 			$query[] = $parameter . '=' . urlencode( $value );
 		}
-		$query = implode( $query, '&' );
+		$query = implode( '&', $query );
 
 		$this->getOutput()->addHTML( Xml::openElement( 'iframe', [
 			'width'     => '100%',
