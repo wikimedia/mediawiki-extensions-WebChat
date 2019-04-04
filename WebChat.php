@@ -7,7 +7,7 @@
  * @file
  * @ingroup Extensions
  *
- * @link http://www.mediawiki.org/wiki/Extension:WebChat
+ * @link https://www.mediawiki.org/wiki/Extension:WebChat
  *
  * @author Robert Leverington <robert@rhl.me.uk>
  * @copyright Copyright © 2008 - 2009 Robert Leverington.
