@@ -183,6 +183,16 @@ $specialPageAliases['sl'] = [
 	'WebChat' => [ 'SpletnaKlepetalnica' ],
 ];
 
+/** Serbian (Cyrillic script) (српски (ћирилица)) */
+$specialPageAliases['sr-ec'] = [
+	'WebChat' => [ 'ВебЋаскање' ],
+];
+
+/** Serbian (Latin script) (srpski (latinica)) */
+$specialPageAliases['sr-el'] = [
+	'WebChat' => [ 'VebĆaskanje' ],
+];
+
 /** Turkish (Türkçe) */
 $specialPageAliases['tr'] = [
 	'WebChat' => [ 'WebSohbet' ],
