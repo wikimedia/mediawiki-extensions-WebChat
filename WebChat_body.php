@@ -23,7 +23,7 @@ class WebChat extends SpecialPage {
 		foreach ( $wgWebChatClients[$wgWebChatClient]['parameters'] as $parameter => $value ) {
 			switch ( $value ) {
 				case '$$$nick$$$':
-					if ( $this->getUser()->isLoggedIn() ) {
+					if ( $this->getUser()->isRegistered() ) {
 						$value = str_replace( ' ', '_', $this->getUser()->getName() );
 					}
 					break;
