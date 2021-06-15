@@ -15,7 +15,7 @@ class WebChat extends SpecialPage {
 		$this->getOutput()->addWikiMsg( 'webchat-header' );
 
 		if ( !array_key_exists( $wgWebChatClient, $wgWebChatClients ) ) {
-			throw new MwException( 'Unknown web chat client specified.' );
+			throw new MWException( 'Unknown web chat client specified.' );
 		}
 
 		$query = [];
