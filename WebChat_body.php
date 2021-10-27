@@ -9,7 +9,7 @@ class WebChat extends SpecialPage {
 	}
 
 	public function execute( $par ) {
-		global $wgWebChatServer, $wgWebChatChannel, $wgWebChatClient, $wgWebChatClients;
+		global $wgWebChatClient, $wgWebChatClients;
 
 		$this->setHeaders();
 		$this->getOutput()->addWikiMsg( 'webchat-header' );
@@ -18,25 +18,13 @@ class WebChat extends SpecialPage {
 			throw new MWException( 'Unknown web chat client specified.' );
 		}
 
-		$query = [];
-
-		foreach ( $wgWebChatClients[$wgWebChatClient]['parameters'] as $parameter => $value ) {
-			switch ( $value ) {
-				case '$$$nick$$$':
-					if ( $this->getUser()->isRegistered() ) {
-						$value = str_replace( ' ', '_', $this->getUser()->getName() );
-					}
-					break;
-				case '$$$channel$$$':
-					$value = $wgWebChatChannel;
-					break;
-				case '$$$server$$$':
-					$value = $wgWebChatServer;
-					break;
-			}
-			$query[] = $parameter . '=' . urlencode( $value );
+		$config = $wgWebChatClients[$wgWebChatClient];
+		$parameters = $config['parameters'];
+		foreach ( $parameters as &$value ) {
+			$value = $this->replaceVariables( $value );
 		}
-		$query = implode( '&', $query );
+		$hash = $this->replaceVariables( $config['hash'] ?? '' );
+		$url = wfAppendQuery( $config['url'], $parameters ) . $hash;
 
 		$this->getOutput()->addHTML( Xml::openElement( 'iframe', [
 			'width'     => '100%',
@@ -44,7 +32,7 @@ class WebChat extends SpecialPage {
 			'scrolling' => 'no',
 			'border'    => '0',
 			'onLoad'    => 'webChatExpand( this )',
-			'src'       => $wgWebChatClients[$wgWebChatClient]['url'] . '?' . $query
+			'src'       => $url
 		] ) . Xml::closeElement( 'iframe' ) );
 
 		// Hack to make the chat area a reasonable size.
@@ -61,5 +49,24 @@ function webChatExpand( elem ) {
 
 	protected function getGroupName() {
 		return 'wiki';
+	}
+
+	private function replaceVariables( string $value ): string {
+		global $wgWebChatServer, $wgWebChatChannel;
+
+		switch ( $value ) {
+			case '$$$nick$$$':
+				if ( $this->getUser()->isRegistered() ) {
+					$value = str_replace( ' ', '_', $this->getUser()->getName() );
+				}
+				break;
+			case '$$$channel$$$':
+				$value = $wgWebChatChannel;
+				break;
+			case '$$$server$$$':
+				$value = $wgWebChatServer;
+				break;
+		}
+		return $value;
 	}
 }

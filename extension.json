@@ -74,9 +74,9 @@
 				"LiberaChat": {
 					"url": "//web.libera.chat/",
 					"parameters": {
-						"channels": "$$$channel$$$",
 						"nick": "$$$nick$$$"
-					}
+					},
+					"hash": "$$$channel$$$"
 				}
 			}
 		}
