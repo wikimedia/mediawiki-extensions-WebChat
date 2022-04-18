@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"LoveIceLang",
 			"Sveinn í Felli"
 		]
 	},
-	"webchat": "Vefspjall"
+	"webchat": "Vefspjall",
+	"webchat-header": "Þessi sérstaka síða gerir þér kleift að vinna í rauntíma með öðrum notendum af wiki.\nTil að tengjast einfaldlega ýttu á „Connect” takkann.\nEf þú ert skráður inn mun gælunafnið þitt hafa verið forútfyllt.\nNafnlausir notendur fá sjálfkrafa myndaðan notanda, en honum er hægt að breyta."
 }
