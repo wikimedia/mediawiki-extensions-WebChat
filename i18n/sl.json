@@ -7,6 +7,7 @@
 	},
 	"webchat": "Spletni klepet",
 	"webchat-desc": "Doda [[Special:WebChat|posebno stran]], ki se uporablja za klepet z ostalimi vikiuporabniki v realnem času",
-	"webchat-header": "Ta posebna stran vam omogoča sodelovanje z drugimi uporabniki wikija v realnem času.\nZa povezavo preprosto pritisnite gumb »Connect«.\nĆe ste se prijavili, bo uporabljen vaš vzdevek.\nZa anonimne uporabnike bo vzdevek ustvarjen samodejno, vendar ga bo mogoče spremeniti.",
+	"webchat-header": "Ta posebna stran vam omogoča sodelovanje z drugimi uporabniki vikija v realnem času.\nZa povezavo preprosto pritisnite gumb »Connect«.\nĆe ste se prijavili, bo uporabljen vaš vzdevek.\nZa anonimne uporabnike bo vzdevek ustvarjen samodejno, vendar ga je mogoče spremeniti.",
+	"action-webchat": "uporabo spletnega klepeta",
 	"right-webchat": "Uporaba [[Special:WebChat|spletnega klepeta]]"
 }
