@@ -6,10 +6,11 @@
 			"Liangent",
 			"StarrySky",
 			"Wilsonmess",
-			"Xiaomingyan"
+			"Xiaomingyan",
+			"LittlePaw365"
 		]
 	},
-	"webchat": "网上聊天",
+	"webchat": "网页聊天",
 	"webchat-desc": "添加一个用于与其他用户实时聊天的[[Special:WebChat|专页]]",
 	"webchat-header": "该特殊页面允许您与其他维基人进行实时的协同合作。\n点击“连接”继续。\n如果您已登录，那么您的昵称将被自动输入。\n如果您是匿名用户，系统将自动生成一个昵称，不过登录后可以进行修改。",
 	"action-webchat": "使用网络聊天",
