@@ -11,7 +11,7 @@
 	},
 	"webchat": "Web-Chat",
 	"webchat-desc": "Ermöglicht über eine [[Special:WebChat|Spezialseite]] in Echtzeit mit anderen Benutzern zu chatten",
-	"webchat-header": "Über diese Spezialseite kann man in Echtzeit mit anderen Benutzern kommunizieren.\nZum Anmelden klicke auf die Schaltfläche „Verbinden“.\nSolltest du im Wiki angemeldet sein, wird standardmäßig dein Wiki-Benutzername als Chatname verwendet.\nAndernfalls wird automatisch ein Chatname erzeugt, der allerdings auch noch im Nachhinein geändert werden kann.",
+	"webchat-header": "Über diese Spezialseite kann man in Echtzeit mit anderen Benutzern kommunizieren.\nZum Anmelden {{#FORMAL:klicke|klicken Sie}} auf die Schaltfläche „Verbinden“.\n{{#FORMAL:Solltest du|Sollten Sie}} im Wiki angemeldet sein, wird standardmäßig {{#FORMAL:dein|Ihr}} Wiki-Benutzername als Chatname verwendet.\nAndernfalls wird automatisch ein Chatname erzeugt, der allerdings auch noch im Nachhinein geändert werden kann.",
 	"action-webchat": "Webchat nutzen",
 	"right-webchat": "[[Special:WebChat|Web-Chat]] nutzen"
 }
