@@ -4,9 +4,9 @@
 			"Toliño"
 		]
 	},
-	"webchat": "Chat web",
+	"webchat": "Parola web",
 	"webchat-desc": "Engade unha [[Special:WebChat|páxina especial]] usada para conversar en tempo real con outros usuarios do wiki",
-	"webchat-header": "Esta páxina especial permítelle colaborar en tempo real con outros usuarios do wiki.\nPara conectarse simplemente prema no botón \"Conectar\".\nSe está rexistrado o seu nome de usuario será fixado por defecto.\nAos usuarios anónimos concederáselles un nome automático, que pode ser cambiado.",
-	"action-webchat": "usar o chat web",
-	"right-webchat": "Usar o [[Special:WebChat|chat web]]"
+	"webchat-header": "Esta páxina especial permíteche colaborar en tempo real con outros usuarios do wiki.\nPara conectarte, simplemente preme no botón «Connect».\nSe iniciaches sesión, o teu alcume estará enchido por defecto.\nOs usuarios anónimos reciben un nome xerado automaticamente, mais pode mudarse.",
+	"action-webchat": "usar a parola web",
+	"right-webchat": "Usar a [[Special:WebChat|parola web]]"
 }
