@@ -3,12 +3,13 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Emperyan",
+			"SaldırganSincap",
 			"Vito Genovese"
 		]
 	},
 	"webchat": "Web sohbet",
 	"webchat-desc": "Diğer wiki kullanıcılarıyla gerçek zamanlı sohbet etmek için kullanılan [[Special:WebChat|özel sayfa]] ekler",
 	"webchat-header": "Bu özel sayfa, wikinin diğer kullanıcılarıyla gerçek zamanlı olarak işbirliği yapmanızı sağlar.\nBağlamak için sadece \"Bağlan\" düğmesine basın.\nGiriş yaptıysanız takma adınız önceden doldurulmuş olacaktır.\nAnonim kullanıcılara otomatik olarak oluşturulan bir kullanıcı verilir, ancak değiştirilebilir.",
-	"action-webchat": "web sohbeti kullanmasına izin verildi",
-	"right-webchat": "[[Special:WebChat|Web sohbet]] kullanıma izin verildi"
+	"action-webchat": "web sohbetini kullanma",
+	"right-webchat": "[[Special:WebChat|Web sohbeti]] kullan"
 }
