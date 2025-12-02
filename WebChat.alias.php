@@ -213,12 +213,17 @@ $specialPageAliases['vi'] = [
 	'WebChat' => [ 'Trò_chuyện_Web' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'WebChat' => [ 'WebChat' ],
+];
+
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'WebChat' => [ '在线聊天' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
 	'WebChat' => [ '線上聊天' ],
 ];
