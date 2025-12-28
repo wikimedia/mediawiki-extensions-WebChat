@@ -3,6 +3,8 @@
  * WebChat extension special page class.
  */
 
+use MediaWiki\Html\Html;
+
 class WebChat extends SpecialPage {
 	public function __construct() {
 		parent::__construct( 'WebChat', 'webchat' );
@@ -26,17 +28,17 @@ class WebChat extends SpecialPage {
 		$hash = $this->replaceVariables( $config['hash'] ?? '' );
 		$url = wfAppendQuery( $config['url'], $parameters ) . $hash;
 
-		$this->getOutput()->addHTML( Xml::openElement( 'iframe', [
+		$this->getOutput()->addHTML( Html::openElement( 'iframe', [
 			'width'     => '100%',
 			'height'    => '500',
 			'scrolling' => 'no',
 			'border'    => '0',
 			'onLoad'    => 'webChatExpand( this )',
 			'src'       => $url
-		] ) . Xml::closeElement( 'iframe' ) );
+		] ) . Html::closeElement( 'iframe' ) );
 
 		// Hack to make the chat area a reasonable size.
-		$this->getOutput()->addHTML( Xml::tags( 'script',
+		$this->getOutput()->addHTML( Html::rawElement( 'script',
 			[ 'type' => 'text/javascript' ],
 '/* <![CDATA[ */
 function webChatExpand( elem ) {
