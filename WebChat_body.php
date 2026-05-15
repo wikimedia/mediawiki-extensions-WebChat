@@ -7,7 +7,12 @@ use MediaWiki\Html\Html;
 
 class WebChat extends SpecialPage {
 	public function __construct() {
-		parent::__construct( 'WebChat', 'webchat' );
+		parent::__construct( 'WebChat' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'webchat';
 	}
 
 	public function execute( $par ) {
