@@ -3,10 +3,13 @@
  * WebChat extension special page class.
  */
 
+use MediaWiki\Config\Config;
 use MediaWiki\Html\Html;
 
 class WebChat extends SpecialPage {
-	public function __construct() {
+	public function __construct(
+		private readonly Config $config,
+	) {
 		parent::__construct( 'WebChat' );
 	}
 
@@ -16,16 +19,17 @@ class WebChat extends SpecialPage {
 	}
 
 	public function execute( $par ) {
-		global $wgWebChatClient, $wgWebChatClients;
-
 		$this->setHeaders();
 		$this->getOutput()->addWikiMsg( 'webchat-header' );
 
-		if ( !array_key_exists( $wgWebChatClient, $wgWebChatClients ) ) {
+		$client = $this->config->get( 'WebChatClient' );
+		$clients = $this->config->get( 'WebChatClients' );
+
+		if ( !array_key_exists( $client, $clients ) ) {
 			throw new MWException( 'Unknown web chat client specified.' );
 		}
 
-		$config = $wgWebChatClients[$wgWebChatClient];
+		$config = $clients[$client];
 		$parameters = $config['parameters'];
 		foreach ( $parameters as &$value ) {
 			$value = $this->replaceVariables( $value );
@@ -59,8 +63,6 @@ function webChatExpand( elem ) {
 	}
 
 	private function replaceVariables( string $value ): string {
-		global $wgWebChatServer, $wgWebChatChannel;
-
 		switch ( $value ) {
 			case '$$$nick$$$':
 				if ( $this->getUser()->isRegistered() ) {
@@ -68,10 +70,10 @@ function webChatExpand( elem ) {
 				}
 				break;
 			case '$$$channel$$$':
-				$value = $wgWebChatChannel;
+				$value = $this->config->get( 'WebChatChannel' );
 				break;
 			case '$$$server$$$':
-				$value = $wgWebChatServer;
+				$value = $this->config->get( 'WebChatServer' );
 				break;
 		}
 		return $value;

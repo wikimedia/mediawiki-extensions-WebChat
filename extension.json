@@ -27,7 +27,12 @@
 		"webchat"
 	],
 	"SpecialPages": {
-		"WebChat": "WebChat"
+		"WebChat": {
+			"class": "WebChat",
+			"services": [
+				"MainConfig"
+			]
+		}
 	},
 	"MessagesDirs": {
 		"WebChat": [
