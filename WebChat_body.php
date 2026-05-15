@@ -4,6 +4,7 @@
  */
 
 use MediaWiki\Config\Config;
+use MediaWiki\Config\ConfigException;
 use MediaWiki\Html\Html;
 
 class WebChat extends SpecialPage {
@@ -26,7 +27,7 @@ class WebChat extends SpecialPage {
 		$clients = $this->config->get( 'WebChatClients' );
 
 		if ( !array_key_exists( $client, $clients ) ) {
-			throw new MWException( 'Unknown web chat client specified.' );
+			throw new ConfigException( 'Unknown web chat client specified.' );
 		}
 
 		$config = $clients[$client];
