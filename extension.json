@@ -50,7 +50,7 @@
 			"description": "Channel to connect to."
 		},
 		"WebChatClient": {
-			"value": "",
+			"value": "LiberaChat",
 			"description": "Which web chat client to use, 'freenodeChat' is required when connecting to freenode, but 'Mibbit' can be used for other networks."
 		},
 		"WebChatClients": {
