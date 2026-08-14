@@ -4,5 +4,9 @@
 			"AhmedG612"
 		]
 	},
+	"webchat": "Wadahadalka shabakadda",
+	"webchat-desc": "Waxay ku darsataa [[Special:WebChat|bog gaar ah]] oo loo isticmaalo in si toos ah loola sheekeysto isticmaalayaasha kale ee wikiga",
+	"webchat-header": "Boggan gaarka ah wuxuu kuu oggolaanayaa inaad si toos ah ula shaqeyso isticmaalayaasha kale ee wiki-ga.\n\nSi aad ugu xirnaato, si fudud u riix badhanka \"Ku xirnow\".\n\nHaddii aad soo gashay, naanaystaada ayaa horay loo buuxin doonaa.\n\nIsticmaalayaasha aan la aqoonsan waxaa loo sameynayaa naanays si toos ah loo soo saaray, laakiin waa la beddeli karaa.",
+	"action-webchat": "isticmaal wada sheekaysiga webka",
 	"right-webchat": "Isticmaal [[Special:WebChat|web chat]]"
 }
