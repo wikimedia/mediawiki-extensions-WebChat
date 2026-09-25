@@ -5,12 +5,13 @@
 			"Rail",
 			"Railfail536",
 			"Sp5uhe",
-			"Woytecr"
+			"Woytecr",
+			"PanWor"
 		]
 	},
 	"webchat": "Czat webowy",
 	"webchat-desc": "Dodaje [[Special:WebChat|stronę specjalną]] pozwalającą na prowadzenie rozmów w czasie rzeczywistym z innymi użytkownikami wiki",
-	"webchat-header": "Ta specjalna strona pozwala na współpracę w czasie rzeczywistym z innymi użytkownikami wiki.\nAby się połączyć po prostu naciśnij przycisk „Połącz”.\nJeśli jesteś zalogowany, pseudonim zostanie wstępnie ustawiony.\nAnonimowi użytkownicy otrzymują automatycznie wygenerowany pseudonim, ale mogą go zmienić.",
+	"webchat-header": "Ta specjalna strona pozwala na współpracę w czasie rzeczywistym z innymi użytkownikami wiki.\nAby się połączyć, po prostu kliknij przycisk „Połącz”.\nJeśli już się zalogowano, Twój pseudonim zostanie wstępnie ustawiony.\nAnonimowi użytkownicy otrzymują automatycznie wygenerowany pseudonim, ale mogą go zmienić.",
 	"action-webchat": "korzystania z czatu webowego",
 	"right-webchat": "Korzystanie z [[Special:WebChat|czatu webowego]]"
 }
